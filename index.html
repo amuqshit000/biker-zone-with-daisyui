@@ -175,13 +175,29 @@
   <!-- main -->
   <main class="md:container md:mx-auto">
     <!-- featured bike -->
-    <section>
+    <section class="my-24">
+      <h3 class="text-3xl font-semibold text-center mb-5">Featured Bikes <span class="text-bikep">In This Year</span></h3>
 
+      <!-- feature bike cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-14 lg:gap-32 p-14">
+        <!-- 1 -->
+        <div class="mb-14">
+          <img src="/images/others/feature-bike.png" alt="">
+        </div>
+        <!-- 2 -->
+        <div class="mb-14">
+          <img src="/images/others/feature-bike.png" alt="">
+        </div>
+        <!-- 3 -->
+        <div>
+          <img src="/images/others/feature-bike.png" alt="">
+        </div>
+      </div>
     </section>
 
     <!-- Latest Bikes -->
     <section class="my-24">
-      <h3 class="text-3xl font-semibold text-center mb-5">Latest Bikes</h3>
+      <h3 class="text-3xl font-semibold text-center mb-5">Latest <span class="text-bikep">Bikes</span></h3>
 
       <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <!-- first bike card -->
@@ -388,19 +404,35 @@
 
   </main>
 
-  <!-- footer -->
+  <!-- footer section -->
   <footer class="footer p-10 bg-neutral text-neutral-content">
+    <!-- left aside -->
     <aside>
    
-      <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
+      <nav class="grid grid-flow-col gap-4">
+        <a class="link link-hover">Download Now</a>
+        <a class="link link-hover">License</a>
+      </nav>
+      <nav class="grid grid-flow-col gap-4">
+        <a class="link link-hover">About</a>
+        <a class="link link-hover">Features</a>
+        <a class="link link-hover">Pricing</a>
+        <a class="link link-hover">Careers</a>
+        <a class="link link-hover">Help</a>
+        <a class="link link-hover">Privacy Policy</a>
+      </nav> 
+      <p class="mt-5">© 2024 biker zone. All rights reserved by asif</p>
     </aside> 
-    <nav>
-      <header class="footer-title">Social</header> 
-      <div class="grid grid-cols-1 gap-4">
-        <a><img class="max-w-36" src="/images/others/android.png" alt=""></a>
-        <a><img class="w-36" src="/images/others/ios.png" alt=""></a>
-      </div>
-    </nav>
+    <!-- get the app -->
+    <div>
+      <nav>
+        <header class="footer-title">Get the App</header> 
+        <div class="grid grid-cols-1 gap-4">
+          <a><img class="max-w-36" src="/images/others/android.png" alt=""></a>
+          <a><img class="w-36" src="/images/others/ios.png" alt=""></a>
+        </div>
+      </nav>
+    </div>
   </footer>
 </body>
 
